@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 11 Javascript</title>
+
+
+    <style>
+        body{
+            background: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1{
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .clock{
+            font-size: 10vw;
+            text-align: center;
+            margin: 200px auto;
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .clock span{
+            padding: 20px;
+            background: #444;
+            border-radius: 10px;
+        }
+        /* MEDIA QUERY */
+        @media(min-width: 1200px){
+            .clock{
+                font-size: 5vw;
+            }
+            .clock span{
+                padding:30px;
+            }
+            h1{
+                font-size: 3vw;
+            }
+        }
+        @media(max-width:600px) {
+            .clock{
+                font-size: 15vw;
+            }
+            .clock span{
+                padding: 10px;
+            }
+            h1{
+                font-size: 5vw;
+            }
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <h1> <b>DIGITAL CLOCK.</b> </h1>
+
+
+
+
+    <div class="clock"></div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
