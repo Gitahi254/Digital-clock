@@ -17,8 +17,14 @@
         }
         h1{
             color: yellow;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: cursive;
             text-align: center;
+            margin-bottom: 20px;
+        }
+        .date{
+            color: yellow;
+            font-family: cursive;
+            font-size: 4vw;
             margin-bottom: 20px;
         }
         .clock{
@@ -44,6 +50,9 @@
             h1{
                 font-size: 3vw;
             }
+            .date{
+                font-size: 2vw;
+            }
         }
         @media(max-width:600px) {
             .clock{
@@ -55,6 +64,9 @@
             h1{
                 font-size: 5vw;
             }
+            .date{
+                font-size: 6vw;
+            }
         }
 
     </style>
@@ -62,11 +74,11 @@
 
 </head>
 <body>
-    <h1> <b>DIGITAL CLOCK.</b> </h1>
+    <h1> <b> DIGITAL CLOCK. </b> </h1>
 
 
 
-
+    <div class="date"></div>
     <div class="clock"></div>
 
 
